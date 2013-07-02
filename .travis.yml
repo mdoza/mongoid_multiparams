@@ -9,5 +9,5 @@ rvm:
 jdk:
   - oraclejdk7
   - openjdk7
-service:
+services:
   - mongodb
