@@ -7,4 +7,8 @@ group :test do
   gem 'rake'
   gem 'mongoid', '~> 4.0.0', github: 'mongoid/mongoid'
   gem 'rspec', '~> 2.13.0'
+  
+  if ENV['CI']
+    gem "coveralls", require: false
+  end
 end
