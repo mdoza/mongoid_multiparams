@@ -23,6 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "mongoid", '~> 4.0.0'
   
   # signing key and certificate chain
-  spec.signing_key = '/Users/matt/.security/gem-private_key.pem'
-  spec.cert_chain  = ['gem-public_cert.pem']
+  # TODO: Will deal with this later.
+  # spec.signing_key = '/Users/matt/.security/gem-private_key.pem'
+  # spec.cert_chain  = ['gem-public_cert.pem']
 end
