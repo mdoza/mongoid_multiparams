@@ -1,4 +1,4 @@
-# MongoidMultiparams
+# Mongoid Multiparams [![Build Status](https://travis-ci.org/mdoza/mongoid_multiparams.png?branch=master)](https://travis-ci.org/mdoza/mongoid_multiparams)
 
 TODO: Write a gem description
 
