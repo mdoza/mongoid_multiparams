@@ -30,6 +30,15 @@ $LOAD_PATH.unshift(MODELS)
 
 Dir[File.join(File.dirname(__FILE__), "..", "lib", "*.rb")].each {|file| require file }
 
+if ENV["CI"]
+  require "simplecov"
+  require "coveralls"
+  SimpleCov.formatter = Coveralls::SimpleCov::Formatter
+  SimpleCov.start do
+    add_filter "spec"
+  end
+end
+
 require "mongoid"
 require "rspec"
 
